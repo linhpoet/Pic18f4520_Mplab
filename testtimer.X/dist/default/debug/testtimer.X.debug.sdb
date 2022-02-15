@@ -1,0 +1,156 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"6 E:\Desktop\Hoc\DA_Vxl_Vdk/Timer1.Counter.X/MyLcd16.c
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"20
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+"32
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"40
+[v _lcd_number lcd_number `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\testtimer.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"278 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"641
+[v _TMR1L TMR1L `VEuc  1 e 1 @14 ]
+"648
+[v _TMR1H TMR1H `VEuc  1 e 1 @15 ]
+[s S64 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+]
+"680
+[s S70 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[s S76 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1INSYNC 1 0 :1:2 
+]
+[u S79 . 1 `S64 1 . 1 0 `S70 1 . 1 0 `S76 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES79  1 e 1 @16 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S43 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"1635
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES52  1 e 1 @140 ]
+"22 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\testtimer.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"23
+[v main@cnt cnt `ui  1 a 2 11 ]
+"41
+} 0
+"32 E:\Desktop\Hoc\DA_Vxl_Vdk/Timer1.Counter.X/MyLcd16.c
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+[v lcd_string@str str `*.24uc  1 a 1 wreg ]
+"34
+[v lcd_string@i i `i  1 a 2 5 ]
+"32
+[v lcd_string@str str `*.24uc  1 a 1 wreg ]
+"34
+[v lcd_string@str str `*.24uc  1 a 1 7 ]
+"38
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+[v strlen@s s `*.24DCuc  1 a 1 wreg ]
+"6
+[v strlen@cp cp `*.24DCuc  1 a 1 4 ]
+"4
+[v strlen@s s `*.24DCuc  1 a 1 wreg ]
+"8
+[v strlen@s s `*.24DCuc  1 a 1 3 ]
+"13
+} 0
+"40 E:\Desktop\Hoc\DA_Vxl_Vdk/Timer1.Counter.X/MyLcd16.c
+[v _lcd_number lcd_number `(v  1 e 1 0 ]
+{
+"42
+[v lcd_number@num_div num_div `i  1 a 2 4 ]
+"43
+[v lcd_number@num_test num_test `i  1 a 2 2 ]
+"44
+[v lcd_number@num_display num_display `i  1 a 2 0 ]
+"40
+[v lcd_number@num num `i  1 p 2 9 ]
+"58
+} 0
+"20
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+{
+[v lcd_char@data data `uc  1 a 1 wreg ]
+[v lcd_char@data data `uc  1 a 1 wreg ]
+"22
+[v lcd_char@data data `uc  1 a 1 2 ]
+"31
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"6 E:\Desktop\Hoc\DA_Vxl_Vdk/Timer1.Counter.X/MyLcd16.c
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@cmnd cmnd `uc  1 a 1 wreg ]
+[v lcd_command@cmnd cmnd `uc  1 a 1 wreg ]
+"8
+[v lcd_command@cmnd cmnd `uc  1 a 1 2 ]
+"19
+} 0

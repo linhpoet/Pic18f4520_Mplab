@@ -1,0 +1,60 @@
+
+
+Microchip MPLAB XC8 Assembler V2.32 build 20210201212658 
+                                                                                                           Sat Apr 10 22:54:15 2021
+
+
+     1                           	processor	18F4520
+     2                           	pagewidth 132
+     3                           	opt	flic
+     4  0000                     	org	0
+     5  0000  EF00' F000'        	goto	MAIN
+     6  0004  0100'              	banksel	TRISB
+     7  0006  6B00'              	clrf	TRISB,b
+     8  0008  0100'              	banksel	TRISB
+     9  000A  6A20               	clrf	32,c
+    10  000C  5020               	movf	32,w,c
+    11  000E  EC00' F000'        	call	MANG_MA
+    12                           tosu	equ	0xFFF
+    13                           tosh	equ	0xFFE
+    14                           tosl	equ	0xFFD
+    15                           stkptr	equ	0xFFC
+    16                           pclatu	equ	0xFFB
+    17                           pclath	equ	0xFFA
+    18                           pcl	equ	0xFF9
+    19                           tblptru	equ	0xFF8
+    20                           tblptrh	equ	0xFF7
+    21                           tblptrl	equ	0xFF6
+    22                           tablat	equ	0xFF5
+    23                           prodh	equ	0xFF4
+    24                           prodl	equ	0xFF3
+    25                           indf0	equ	0xFEF
+    26                           postinc0	equ	0xFEE
+    27                           postdec0	equ	0xFED
+    28                           preinc0	equ	0xFEC
+    29                           plusw0	equ	0xFEB
+    30                           fsr0h	equ	0xFEA
+    31                           fsr0l	equ	0xFE9
+    32                           wreg	equ	0xFE8
+    33                           indf1	equ	0xFE7
+    34                           postinc1	equ	0xFE6
+    35                           postdec1	equ	0xFE5
+    36                           preinc1	equ	0xFE4
+    37                           plusw1	equ	0xFE3
+    38                           fsr1h	equ	0xFE2
+    39                           fsr1l	equ	0xFE1
+    40                           bsr	equ	0xFE0
+    41                           indf2	equ	0xFDF
+    42                           postinc2	equ	0xFDE
+    43                           postdec2	equ	0xFDD
+    44                           preinc2	equ	0xFDC
+    45                           plusw2	equ	0xFDB
+    46                           fsr2h	equ	0xFDA
+    47                           fsr2l	equ	0xFD9
+    48                           status	equ	0xFD8
+
+
+Microchip Technology PIC18 Macro Assembler V2.32 build 20210201212658 
+Symbol Table                                                                                               Sat Apr 10 22:54:15 2021
+
+       DEM 000020        MAIN 000000*      TRISB 000000*    MANG_MA 000000*    isa$std 000001   isa$xinst 000000  

@@ -1,0 +1,113 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"45 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\4_Led_7_0000-9999.X\newmain.c
+[v _HangDV HangDV `(i  1 e 2 0 ]
+"52
+[v _HangChuc HangChuc `(i  1 e 2 0 ]
+"59
+[v _HangTram HangTram `(i  1 e 2 0 ]
+"66
+[v _HangNghin HangNghin `(i  1 e 2 0 ]
+"73
+[v _main main `(v  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"278
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S23 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"295
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES32  1 e 1 @7 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"43 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\4_Led_7_0000-9999.X\newmain.c
+[v _ledcode ledcode `[10]i  1 e 20 0 ]
+"73
+[v _main main `(v  1 e 1 0 ]
+{
+"97
+[v main@i i `i  1 a 2 8 ]
+"80
+[v main@timeTemp timeTemp `i  1 a 2 12 ]
+"79
+[v main@time time `i  1 a 2 10 ]
+"80
+[v main@hangdv hangdv `i  1 a 2 6 ]
+[v main@hangchuc hangchuc `i  1 a 2 4 ]
+[v main@hangtram hangtram `i  1 a 2 2 ]
+[v main@hangnghin hangnghin `i  1 a 2 0 ]
+"112
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 7 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 6 ]
+[v ___awdiv@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"41
+} 0
+"59 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\4_Led_7_0000-9999.X\newmain.c
+[v _HangTram HangTram `(i  1 e 2 0 ]
+{
+[v HangTram@hangtram hangtram `i  1 p 2 0 ]
+"64
+} 0
+"66
+[v _HangNghin HangNghin `(i  1 e 2 0 ]
+{
+[v HangNghin@hangnghin hangnghin `i  1 p 2 0 ]
+"71
+} 0
+"45
+[v _HangDV HangDV `(i  1 e 2 0 ]
+{
+[v HangDV@hangdv hangdv `i  1 p 2 0 ]
+"50
+} 0
+"52
+[v _HangChuc HangChuc `(i  1 e 2 0 ]
+{
+[v HangChuc@hangchuc hangchuc `i  1 p 2 0 ]
+"57
+} 0

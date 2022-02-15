@@ -1,0 +1,156 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"49 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\ADC_Voltage_pic16f877a.X\newmain.c
+[v _Lcd_Display Lcd_Display `(v  1 e 1 0 ]
+"73
+[v _HangDV HangDV `(i  1 e 2 0 ]
+"80
+[v _HangChuc HangChuc `(i  1 e 2 0 ]
+"87
+[v _HangTram HangTram `(i  1 e 2 0 ]
+"94
+[v _HangNghin HangNghin `(i  1 e 2 0 ]
+"101
+[v _AN0_Config AN0_Config `(v  1 e 1 0 ]
+"116
+[v _main main `(v  1 e 1 0 ]
+"278 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S45 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357
+[u S54 . 1 `S45 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES54  1 e 1 @8 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S67 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1190
+[s S73 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S81 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S84 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S87 . 1 `S67 1 . 1 0 `S73 1 . 1 0 `S81 1 . 1 0 `S84 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES87  1 e 1 @31 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"45 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\ADC_Voltage_pic16f877a.X\newmain.c
+[v _ledcode ledcode `[10]i  1 e 20 0 ]
+"46
+[v _hangnghin hangnghin `ui  1 e 2 0 ]
+[v _hangtram hangtram `ui  1 e 2 0 ]
+[v _hangchuc hangchuc `ui  1 e 2 0 ]
+[v _hangdv hangdv `ui  1 e 2 0 ]
+[v _tempCTemp tempCTemp `ui  1 e 2 0 ]
+"47
+[v _Vol Vol `ui  1 e 2 0 ]
+"116
+[v _main main `(v  1 e 1 0 ]
+{
+"138
+} 0
+"49
+[v _Lcd_Display Lcd_Display `(v  1 e 1 0 ]
+{
+[v Lcd_Display@Vol Vol `i  1 p 2 8 ]
+"71
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"87 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\ADC_Voltage_pic16f877a.X\newmain.c
+[v _HangTram HangTram `(i  1 e 2 0 ]
+{
+[v HangTram@hangtram hangtram `i  1 p 2 0 ]
+"92
+} 0
+"94
+[v _HangNghin HangNghin `(i  1 e 2 0 ]
+{
+[v HangNghin@hangnghin hangnghin `i  1 p 2 0 ]
+"99
+} 0
+"73
+[v _HangDV HangDV `(i  1 e 2 0 ]
+{
+[v HangDV@hangdv hangdv `i  1 p 2 0 ]
+"78
+} 0
+"80
+[v _HangChuc HangChuc `(i  1 e 2 0 ]
+{
+[v HangChuc@hangchuc hangchuc `i  1 p 2 0 ]
+"85
+} 0
+"101
+[v _AN0_Config AN0_Config `(v  1 e 1 0 ]
+{
+"113
+} 0

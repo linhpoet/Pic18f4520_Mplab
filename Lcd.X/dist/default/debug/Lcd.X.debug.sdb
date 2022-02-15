@@ -1,0 +1,146 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"6 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\Lcd.X\MyLcd16.c
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+"20
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+"32
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+"40
+[v _lcd_number lcd_number `(v  1 e 1 0 ]
+"78 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\Lcd.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"450 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"632
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"78 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\Lcd.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"89
+[v main@rate rate `ui  1 a 2 16 ]
+"95
+} 0
+"32 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\Lcd.X\MyLcd16.c
+[v _lcd_string lcd_string `(v  1 e 1 0 ]
+{
+"34
+[v lcd_string@i i `i  1 a 2 8 ]
+"32
+[v lcd_string@str str `*.32uc  1 p 2 4 ]
+"38
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.32Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.32Cuc  1 p 2 0 ]
+"12
+} 0
+"40 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\Lcd.X\MyLcd16.c
+[v _lcd_number lcd_number `(v  1 e 1 0 ]
+{
+"42
+[v lcd_number@num_div num_div `i  1 a 2 14 ]
+"43
+[v lcd_number@num_test num_test `i  1 a 2 12 ]
+"44
+[v lcd_number@num_display num_display `i  1 a 2 10 ]
+"40
+[v lcd_number@num num `i  1 p 2 8 ]
+"60
+} 0
+"20
+[v _lcd_char lcd_char `(v  1 e 1 0 ]
+{
+[v lcd_char@data data `uc  1 a 1 wreg ]
+[v lcd_char@data data `uc  1 a 1 wreg ]
+"22
+[v lcd_char@data data `uc  1 a 1 1 ]
+"31
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"6 E:\Desktop\Hoc\DA_Vxl_Vdk\Code\Lcd.X\MyLcd16.c
+[v _lcd_command lcd_command `(v  1 e 1 0 ]
+{
+[v lcd_command@cmnd cmnd `uc  1 a 1 wreg ]
+[v lcd_command@cmnd cmnd `uc  1 a 1 wreg ]
+"8
+[v lcd_command@cmnd cmnd `uc  1 a 1 1 ]
+"19
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0

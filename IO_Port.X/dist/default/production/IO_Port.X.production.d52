@@ -1,0 +1,59 @@
+;
+;  D52 V3.3.6 8052 Disassembly of E:\Desktop\Hoc\DA_Vxl_Vdk\Code\IO_Port.X\dist\default\production\IO_Port.X.production.hex
+;  04/10/21 01:35
+;
+	org	1
+;
+	ljmp	X191e
+;
+	org	5
+;
+	rr	a
+	sjmp	X0007
+;
+	inc	r7
+	push	rb1r7
+	movx	a,@dptr
+	inc	r7
+	jc	X000e
+;
+	org	191eh
+;
+X191e:	db	0ffh
+;
+	org	78fbh
+;
+X78fb:	db	0ffh
+;
+	org	7ff1h
+;
+	ajmp	X78fb
+;
+	mov	a,r7
+	addc	a,r7
+	movx	@dptr,a
+	nop	
+	inc	r6
+	subb	a,#6eh
+	anl	c,2dh.0
+	nop	
+	mov	a,r7
+	nop	
+	movx	@dptr,a
+;
+;	Register/Memory Equates
+;
+rb1r7	equ	0fh
+;
+;	Miscellaneous equates
+;
+;  These are addresses referenced in the code but
+;  which are in the middle of a multibyte instruction
+;  or are addresses outside the initialized space
+;
+X0007	equ	7
+X000e	equ	0eh
+;
+	end
+;
+
